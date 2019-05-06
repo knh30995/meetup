@@ -1,0 +1,41 @@
+.groupnearyou {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 260px;
+    overflow: hidden;
+    height: 330px;
+    border-radius: 8px;
+    margin-right: 10px;
+    position: relative;
+  }
+  
+  
+.groupnearyou:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    bottom: 1px;
+  }
+
+.groupnearyou-info h5{
+    padding-left: 15px;
+    color: #aaa;
+}
+
+.groupnearyou-info h3{
+    padding-left: 15px;
+    padding-bottom: 20px;
+    color: black !important;
+}
+.groupnearyou img{
+    height: 45%;
+}
+
+.groupnearyou-member{
+    color: #aaa;
+    font-size: 15px;
+    padding: 0px 15px;
+}
+
+.groupnearyou-a{
+    text-decoration: none;
+    display: inline-block;
+}

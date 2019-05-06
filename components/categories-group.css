@@ -1,0 +1,28 @@
+.categories-group{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.activities a{
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.activities{
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+
+}
+
+.activities a img{
+    background-size: cover;
+    border-radius: 5px;
+    
+}
+
+.activities a{
+    color: black !important;
+}

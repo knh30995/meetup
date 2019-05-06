@@ -1,0 +1,65 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 32%;
+  overflow: hidden;
+  height: 270px;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-content{
+    padding: 0px 15px;
+}
+
+.card a{
+    position: absolute;
+    display: block;
+    z-index:1;
+    height: 270px;
+    width: 24%;
+}
+
+.card-location{
+    display: flex;
+    align-items: center;
+    color: #aaa;
+
+}
+
+.card-location i{
+    margin: 0px 5px;
+}
+
+.daymeetup{
+    color:#00a2c7!important;
+}
+
+.attendtogroup{
+    display: flex;
+    align-items: center;
+}
+
+.button-attend{
+    background-color: #4bbfda;
+    border: none;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    z-index: 2;
+    transition: 0.3s;
+
+}
+
+.button-attend:hover {
+    background-color:#00a2c7;
+}
+.attendees{
+    margin: 0px 100px 0px 0px;
+}

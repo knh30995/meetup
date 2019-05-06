@@ -1,0 +1,28 @@
+
+
+
+.catalogies a {
+    text-decoration: none;
+    background-color: #ddd;
+    margin: 5px 10px;
+    color: black;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.catalogies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #cecbcb;
+    padding: 15px 10px;
+}
+
+
+
+/* .catalogies::after{
+    content: '';
+    display:block;
+    clear:both;
+    height:0;
+} */

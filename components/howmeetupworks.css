@@ -1,0 +1,40 @@
+.howmeetupwork{
+    background-color: #0f1721;
+    color: #fff;
+    height: 350px;
+    width: 100%;
+
+}
+
+.howmeetupwork-title{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  
+}
+
+.howmeetupwork-inside{
+    display: flex;
+    justify-content: center;
+}
+
+.howmeetupwork-discover{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.howmeetupwork-start{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.howmeetupwork-inside a{
+    color: #00a2c7!important;
+    text-decoration: none;
+}
+
+.howmeetupwork-inside i{
+    margin: 0px 15px;
+}

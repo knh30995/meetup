@@ -1,0 +1,21 @@
+
+/* .text-sectiontitle{
+    display: flex;
+    align-items: center;
+
+}  */
+.text-sectiontitle h2{
+    margin: 0px;
+}
+.text-sectiontitle p {
+ 
+    margin: 0px;
+}
+
+.section1{
+    margin: 40px 0px 20px 0px;
+}
+
+.section2{
+    margin: 40px 0px 20px 0px;
+}
