@@ -14,8 +14,23 @@
 
 .section1{
     margin: 40px 0px 20px 0px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .section2{
     margin: 40px 0px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1 a {
+    text-decoration: none;
+    color: #00a2c7 !important;
+}
+
+
+.section2 a {
+    text-decoration: none;
+    color: #00a2c7 !important;
 }
