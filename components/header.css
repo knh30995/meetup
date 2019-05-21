@@ -21,7 +21,10 @@ body{
 .header a {
     text-decoration: none;
     color: #bbb;
-    display: block;
+    display: inline-block;
+    white-space: normal;
+    word-wrap:break-word;
+
 
 }
 .header-creategroup{
@@ -41,11 +44,32 @@ body{
 }
 
 .header-creategroup{
-    color:#4875b4 !important;
+    color:#00a2c7!important;
     font-display: bold;
     border-right: 1px solid #ccc;
+    font-weight: 600;
+    font-size: 14px;
+    display: inline-block;
 }
 
 .header a:first-child{
     padding: 20px;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+@media (min-width: 640px){
+
+.header-creategroup{
+    display:block !important;
+    }
+}
+
+@media (max-width: 640px){
+    .header-creategroup{
+        display: none !important;
+        
+    }
 }

@@ -1,69 +1,85 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>We are what we do</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="./components/card.css">
-    <link rel="stylesheet" href="./components/joinmeetup.css">
-    <link rel="stylesheet" href="./components/secsion.css">
-    <link rel="stylesheet" href="./components/catalogies.css">
     <link rel="stylesheet" href="./components/header.css">
-    <link rel="stylesheet" href="./components/learnmore.css">
-    <link rel="stylesheet" href="./components/groupnearyou.css">
-    <link rel="stylesheet" href="./components/categories-group.css">
+    <link rel="stylesheet" href="./components/joinmeetup.css">
     <link rel="stylesheet" href="./components/howmeetupworks.css">
-    <link rel="stylesheet" href="./components/main.css">
+    <!-- 
+    <link rel="stylesheet" href="./components/main.css"> -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./components/catalogies.css">
+    <link rel="stylesheet" href="./components/secsion.css">
+    <link rel="stylesheet" href="./components/card.css">
+    <link rel="stylesheet" href="./components/groupnearyou.css">
+    <link rel="stylesheet" href="./components/learnmore.css">
+    <link rel="stylesheet" href="./components/categories-group.css">
+
 </head>
 
 <body>
-    <div class="main">
-        <div class="header">
-            <a href="#" class="web-link"><img src="https://meetup.com/mu_static/en-US/logo--script.004ada05.svg"
-                    alt="web-image" class="web-image"></a>
-            <a href="#" class="header-creategroup">Start a new group</a>
-            <a href="#" class="header-login">Log in</a>
-            <a href="#" class="header-signin">sign in</a>
+
+    <div class="header">
+        <div class="web-link"><a href="#"><img src="https://meetup.com/mu_static/en-US/logo--script.004ada05.svg"
+                    alt="web-image" class="web-image"></a></div>
+
+        <a href="#" class="header-creategroup .d-sm-none">Start a new group</a>
+        <a href="#" class="header-login">Log in</a>
+        <a href="#" class="header-signin">sign in</a>
+    </div>
+
+    <div class="joinmeetup">
+
+        <div class="content-joinmeetup">
+            <h1>The real world is calling</h1>
+            <p>Join a local group to meet people, try something new, or do more of what you love.</p>
+            <button class="joinmeetup-now ">Join Meetup</button>
         </div>
 
-        <div class="joinmeetup">
 
-                <div class="content-joinmeetup">
-                    <h1>The real world is calling</h1>
-                    <p>Join a local group to meet people, try something new, or do more of what you love.</p>
-                    <button class="joinmeetup-now">Join Meetup</button>
-                </div>
-      
-                
-                    <video autoplay muted loop id="myVideo">
-                        <source src="https://www.meetup.com/mu_static/en-US/video.dddafbfe.mp4" type="video/mp4">
-                        Your browser does not support HTML5 video.
-                    </video>
-                
-            </div>
+        <video autoplay muted loop id="myVideo">
+            <source src="https://www.meetup.com/mu_static/en-US/video.dddafbfe.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
 
-        <div class="catalogies">
-            <a href="#" type="button">Join a moverment</a>
-            <a href="#" type="button">Learn to cook</a>
-            <a href="#" type="button">Train for a marathon</a>
-            <a href="#" type="button">Build a mobile app</a>
-            <a href="#" type="button">Hike a mountain</a>
-            <a href="#" type="button">Practice a language</a>
-        </div>
+    </div>
 
-        <section class="section1">
-            <div class="text-sectiontitle">
-                <h2>Events near you</h2>
+
+    <div class="catalogies ">
+        <a href="#" class="btn1 btn-sm font-weight-bold">Join a moverment</a>
+        <a href="#" class="btn1 btn-sm font-weight-bold">Learn to cook</a>
+        <a href="#" class="btn1 btn-sm font-weight-bold">Train for a marathon</a>
+        <a href="#" class="btn1 btn-sm font-weight-bold">Build a mobile app</a>
+        <a href="#" class="btn1 btn-sm font-weight-bold">Hike a mountain</a>
+        <a href="#" class="btn1 btn-sm font-weight-bold">Practice a language</a>
+    </div>
+
+
+
+    <section class="container">
+        <div class="row justify-content-between">
+            <div class="col-auto mr-auto ">
+                <h4>Events near you</h4>
                 <p>See what's happening soon in your area.</p>
             </div>
-            <a href="#">See all</a>
-        </section>
+            <div class="col-auto">
+                <a href="#" class="font-weight-bold">See all</a>
+            </div>
+        </div>
+    </section>
 
-        <div class="cardall">
+    <div class="container">
+        <div class="cardall row">
             <div class="card">
                 <a href="#"> </a>
                 <div class="card-content">
@@ -75,7 +91,40 @@
                             <h3>Shut Up & Write! Ho Chi Minh City</h3>
                         </div>
 
-                        <div class="container">
+                        <div>
+                            <p>Shut Up & Write! Ho Chi Minh City</p>
+                        </div>
+
+                        <div class="card-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>The Coffee House - Xô Viết Nghệ Tĩnh</p>
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="attendtogroup">
+                        <div class="attendees">
+                            <p>12 attendees</p>
+                        </div>
+                        <button class="button-attend">Attend</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card">
+                <a href="#"> </a>
+                <div class="card-content">
+                    <div class="groupinfo">
+                        <div class="daymeetup">
+                            <h5>THU, MAY 2, 1:30PM</h5>
+                        </div>
+                        <div class="groupname">
+                            <h3>Shut Up & Write! Ho Chi Minh City</h3>
+                        </div>
+
+                        <div>
                             <p>Shut Up & Write! Ho Chi Minh City</p>
                         </div>
                         <div class="card-location">
@@ -105,37 +154,7 @@
                             <h3>Shut Up & Write! Ho Chi Minh City</h3>
                         </div>
 
-                        <div class="container">
-                            <p>Shut Up & Write! Ho Chi Minh City</p>
-                        </div>
-                        <div class="card-location">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <p>The Coffee House - Xô Viết Nghệ Tĩnh</p>
-
-                        </div>
-
-                    </div>
-                    <div class="attendtogroup">
-                        <div class="attendees">
-                            <p>12 attendees</p>
-                        </div>
-                        <button class="button-attend">Attend</button>
-                    </div>
-                </div>
-
-            </div>
-            <div class="card">
-                <a href="#"> </a>
-                <div class="card-content">
-                    <div class="groupinfo">
-                        <div class="daymeetup">
-                            <h5>THU, MAY 2, 1:30PM</h5>
-                        </div>
-                        <div class="groupname">
-                            <h3>Shut Up & Write! Ho Chi Minh City</h3>
-                        </div>
-
-                        <div class="container">
+                        <div>
                             <p>Shut Up & Write! Ho Chi Minh City</p>
                         </div>
                         <div class="card-location">
@@ -155,17 +174,24 @@
 
             </div>
         </div>
+    </div>
 
 
-        <section class="section2">
-            <div class="text-sectiontitle">
-                <h2>Groups near you</h2>
+    <section class="container">
+        <div class="row justify-content-between">
+            <div class="col-auto mr-auto ">
+                <h4>Groups near you</h4>
                 <p>Find groups that get together to do the things they love.</p>
             </div>
-            <a href="#">See all</a>
-        </section>
+            <div class="col-auto">
+                <a href="#" class="font-weight-bold">See all</a>
+            </div>
+        </div>
+    </section>
 
-        <div class="groupnearyouall">
+
+    <div class="container">
+        <div class="row">
             <div class="groupnearyou">
                 <a href="#" class="groupnearyou-a">
                     <img src="https://secure.meetupstatic.com/photos/event/5/8/c/4/600_446062724.jpeg" alt="Avatar"
@@ -219,62 +245,70 @@
                 </a>
             </div>
         </div>
+    </div>
 
-        <div class="learnmore">
-            <div class="learnmore-group">
-                <div class="aboutgroup">
-                    <h2>Bring your community to Meetup</h2>
-                    <p>Want to give your community a boost? Start a group on Meetup to reach more people in your area
-                        and organize local events. You can even use ticketing tools or charge your members dues to help
-                        cover costs.
 
-                    </p>
+    <div class="container">
+        <div class="learnmore row">
+            <div class="d-flex flex-column flex-md-row">
+                <div class="learnmore-group col-md-8">
+                    <div class="aboutgroup">
+                        <h2>Bring your community to Meetup</h2>
+                        <p>Want to give your community a boost? Start a group on Meetup to reach more people in your
+                            area
+                            and organize local events. You can even use ticketing tools or charge your members dues to
+                            help
+                            cover costs.
+
+                        </p>
+                    </div>
+                    <div class="gettoknowgroup">
+                        <a href="#" class="btn gettoknowgroup-start"> Start a group</a>
+                        <a href="#" class="btn gettoknowgroup-more"> Learn more</a>
+                    </div>
                 </div>
-                <div class="gettoknowgroup">
-                    <a href="#" class="gettoknowgroup-start"> Start a group</a>
-                    <a href="#" class="gettoknowgroup-more"> Learn more</a>
+                <div class="learnmore-image col-md-4">
+                    <img src="https://meetup.com/mu_static/en-US/yoga.a65b1d60.jpg" alt="img">
                 </div>
-            </div>
-            <div class="learnmore-image">
-                <img src="https://meetup.com/mu_static/en-US/yoga.a65b1d60.jpg" alt="img">
             </div>
         </div>
+    </div>
 
-        <section class="section3">
-            <div class="text-sectiontitle">
-                <h2>Categories</h2>
+
+    <section class="container">
+        <div class="row justify-content-between">
+            <div class="col-auto mr-auto ">
+                <h4>Categories</h4>
                 <p>Browse groups by topics you're interested in.</p>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- <div class="catalogies-group-title">
-            <h4>Categories</h4>
-            <p>Browse groups by topics you're interested in.</p>
-        </div> -->
-        <div class="categories-group">
+    <div class="container">
+        <div class="categories-group row">
 
-            <div class="activities">
+            <div class="activities col col-lg-3 col-md-3 col-sm-6">
                 <a href="#">
                     <img src="https://secure.meetupstatic.com/photos/event/2/e/a/7/600_450131943.jpeg" alt="picture"
                         style="width:100%">
                     <p><b>Outdoor & Adventure</b></p>
                 </a>
             </div>
-            <div class="activities">
+            <div class="activities col col-lg-3 col-md-3 col-sm-6">
                 <a href="#">
                     <img src="https://secure.meetupstatic.com/photos/event/2/e/a/d/600_450131949.jpeg" alt="picture"
                         style="width:100%">
                     <p><b>Tech</b></p>
                 </a>
             </div>
-            <div class="activities">
+            <div class="activities col col-lg-3 col-md-3 col-sm-6">
                 <a href="#">
                     <img src="https://secure.meetupstatic.com/photos/event/2/e/9/c/600_450131932.jpeg" alt="picture"
                         style="width:100%">
                     <p><b>Family</b></p>
                 </a>
             </div>
-            <div class="activities">
+            <div class="activities col col-lg-3 col-md-3 col-sm-6">
                 <a href="#">
                     <img src="https://secure.meetupstatic.com/photos/event/2/e/a/e/600_450131950.jpeg" alt="picture"
                         style="width:100%">
@@ -284,61 +318,39 @@
 
 
         </div>
+    </div>
 
 
 
+    <div class="howmeetupwork">
+        <div class="howmeetupwork-title">
+            <h1>How Meetup Works</h1>
+        </div>
+        <div class="howmeetupwork-inside">
+            <div class="howmeetupwork-discover">
+                <i class="fas fa-search fa-3x"></i>
+                <div class="discover-inside">
+                    <h3>Discover groups</h3>
+                    <p>See who’s hosting local events for all the things you love.</p>
+                    <a href="#">Join Meetup <i class="fas fa-arrow-right"></i></a>
+                </div>
 
-        <div class="howmeetupwork">
-            <div class="howmeetupwork-title">
-                <h1>How Meetup Works</h1>
             </div>
-            <div class="howmeetupwork-inside">
-                <div class="howmeetupwork-discover">
-                    <i class="fas fa-search fa-3x"></i>
-                    <div class="discover-inside">
-                        <h3>Discover groups</h3>
-                        <p>See who’s hosting local events for all the things you love.</p>
-                        <a href="#">Join Meetup <i class="fas fa-arrow-right"></i></a>
-                    </div>
-
+            <div class="howmeetupwork-start">
+                <i class="fas fa-plus fa-3x"></i>
+                <div class="start-inside">
+                    <h3>Start a group</h3>
+                    <p>Create your own Meetup group, and draw from a community of millions.</p>
+                    <a href="#">Get Started <i class="fas fa-arrow-right"></i> </a>
                 </div>
-                <div class="howmeetupwork-start">
-                    <i class="fas fa-plus fa-3x"></i>
-                    <div class="start-inside">
-                        <h3>Start a group</h3>
-                        <p>Create your own Meetup group, and draw from a community of millions.</p>
-                        <a href="#">Get Started <i class="fas fa-arrow-right"></i> </a>
-                    </div>
 
-                </div>
             </div>
         </div>
-
-
     </div>
 
 
 
 
-
-
-
-
-
-
-    <!-- 
-
-
-
-
-      
-
-     
-
-    
-
-
- -->
 
 
 </body>

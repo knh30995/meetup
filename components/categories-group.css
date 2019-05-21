@@ -1,7 +1,4 @@
-.categories-group{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-}
+
 
 .activities a{
     border-radius: 5px;

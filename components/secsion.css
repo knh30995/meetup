@@ -12,16 +12,24 @@
     margin: 0px;
 }
 
-.section1{
-    margin: 40px 0px 20px 0px;
-    display: flex;
-    justify-content: space-between;
+.container p{
+    margin-block-start: 0em;
+    margin-block-end: 5px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
 }
 
-.section2{
-    margin: 40px 0px 20px 0px;
-    display: flex;
-    justify-content: space-between;
+.col-auto{
+    padding-left: 0px;
+}
+.justify-content-between{
+    margin: 2rem 0px;
+}
+.col-auto h4{
+    font-size: 20px;
+    line-height: 1.45;
+    margin-bottom: 0;
 }
 
 .section1 a {
